@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Lesedi Skin & Beauty | Facials & Natural Skincare, Johannesburg</title>
+<meta name="description" content="Professional facials and handcrafted, cruelty-free skincare in Johannesburg. Book a treatment or order products on WhatsApp.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600&family=Jost:wght@300;400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<header class="top">
+  <a href="#home" class="brand"><img src="images/logo.jpg" alt="Lesedi Skin & Beauty"></a>
+  <button class="menu-btn" aria-label="Menu" aria-expanded="false"><span></span><span></span></button>
+  <nav id="nav">
+    <a href="#treatments">Treatments</a>
+    <a href="#shop">Shop</a>
+    <a href="#men">For men</a>
+    <a href="#contact">Contact</a>
+    <a class="pill" href="#" data-wa="book">Book now</a>
+  </nav>
+</header>
+
+<main id="home">
+  <section class="hero">
+    <img class="hero-logo" src="images/logo.jpg" alt="">
+    <h1>Skin that feels cared for.</h1>
+    <p>Professional facials and handcrafted, cruelty-free skincare, made in South Africa.</p>
+    <div class="actions">
+      <a class="btn gold" href="#" data-wa="book">Book a treatment</a>
+      <a class="btn line" href="#shop">Shop products</a>
+    </div>
+    <p class="hours">Mon to Sat, 09:00 to 18:00 · Johannesburg, Gauteng</p>
+  </section>
+
+  <section id="treatments" class="block">
+    <div class="head"><h2>Treatments</h2><p>Every treatment includes a consultation and professional skincare.</p></div>
+    <div id="treatment-list" class="treatments"></div>
+  </section>
+
+  <section id="shop" class="block alt">
+    <div class="head"><h2>Shop</h2><p>Order on WhatsApp and we will confirm stock and delivery.</p></div>
+    <div class="filters" role="tablist">
+      <button class="on" data-f="all">All</button>
+      <button data-f="face">Face</button>
+      <button data-f="men">Men</button>
+      <button data-f="tools">Tools</button>
+    </div>
+    <div id="product-grid" class="grid"></div>
+  </section>
+
+  <section id="men" class="block men">
+    <div class="men-img"><img src="images/mens-grooming.jpg" alt="Men's grooming products and a charcoal mask" loading="lazy"></div>
+    <div class="men-text">
+      <h2>Grooming for men</h2>
+      <p>A Men's Facial (R450, 60 min) plus a charcoal cleanser and beard oil you can use at home. Simple, effective, no fuss.</p>
+      <a class="btn gold" href="#" data-wa="book">Book a Men's Facial</a>
+    </div>
+  </section>
+
+  <section class="block collection">
+    <div class="head"><h2>The signature collection</h2><p>12 luxury skincare products, natural and cruelty-free.</p></div>
+    <img src="images/collection.jpg" alt="Lesedi signature collection: 12 products" loading="lazy">
+  </section>
+
+  <section id="contact" class="block alt">
+    <div class="head"><h2>Get in touch</h2></div>
+    <div class="contact">
+      <div><h3>Book or order</h3><a href="#" data-wa="book">WhatsApp 065 699 8695</a><p>Mon to Sat, 09:00 to 18:00</p></div>
+      <div><h3>Find us</h3><p>Johannesburg, Gauteng</p>
+        <a href="https://instagram.com/lesediskinbeauty" target="_blank" rel="noopener">Instagram @lesediskinbeauty</a>
+        <a href="https://instagram.com/lesediskincare" target="_blank" rel="noopener">Instagram @lesediskincare</a>
+        <a href="https://www.facebook.com/search/top?q=Lesedi%20Gkosha" target="_blank" rel="noopener">Facebook: Lesedi Gkosha</a></div>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <img src="images/logo.jpg" alt="Lesedi Skin & Beauty">
+  <p>Natural · Cruelty-free · Handcrafted in South Africa</p>
+  <p class="small">© <span id="yr"></span> Lesedi Skin & Beauty</p>
+</footer>
+
+<div class="lightbox" id="lb" hidden><button aria-label="Close">×</button><img alt=""></div>
+<script src="script.js"></script>
+</body>
+</html>
